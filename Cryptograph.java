@@ -100,8 +100,6 @@ public class Cryptograph {
 		int index = getIndexOfChar(encryptThis, inner);
 		index = getIndexOfChar(outer[index], middle);
 			
-		rotateCW();
-			
 		return outer[index];
 	}
 
