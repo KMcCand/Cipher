@@ -173,6 +173,7 @@ public class MenuClass {
 			
 			if (Character.isLetterOrDigit(thisChar)) {
 				thisChar = cypher.getEncrypted(thisChar);
+				cypher.rotateCW();
 			}
 			
 			lineEncoded += thisChar;
